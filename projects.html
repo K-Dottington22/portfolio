@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Kalyb Williams</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">KW</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Projects and Labs</h1>
+      <p>Documented cybersecurity, data, and information security work from labs, coursework, and personal practice.</p>
+    </section>
+
+    <section class="section project-list">
+      <article class="case-study">
+        <div>
+          <img src="assets/img/home-lab.png" alt="Home lab virtual machines" />
+        </div>
+        <div>
+          <h2>Home Cybersecurity Lab</h2>
+          <p>Created an isolated virtual lab for practicing security concepts safely. The environment included Kali Linux, Metasploitable, Windows Server, and vulnerable web applications.</p>
+          <ul>
+            <li>Configured multiple virtual machines in VirtualBox.</li>
+            <li>Tested network connectivity between lab machines.</li>
+            <li>Used the lab for scanning, enumeration, web testing, and packet analysis.</li>
+          </ul>
+          <div class="tags"><span>VirtualBox</span><span>Kali Linux</span><span>Lab Design</span></div>
+        </div>
+      </article>
+
+      <article class="case-study">
+        <div>
+          <img src="assets/img/nmap-service.png" alt="Nmap service detection" />
+        </div>
+        <div>
+          <h2>Nmap Network Enumeration</h2>
+          <p>Used Nmap to identify live hosts, open ports, services, versions, and probable operating systems in a controlled lab network.</p>
+          <ul>
+            <li>Performed host discovery and port scanning.</li>
+            <li>Compared TCP, UDP, service detection, and aggressive scans.</li>
+            <li>Documented services such as FTP, SSH, HTTP, SMB, MySQL, and RPC.</li>
+          </ul>
+          <div class="tags"><span>Nmap</span><span>Reconnaissance</span><span>Enumeration</span></div>
+        </div>
+      </article>
+
+      <article class="case-study">
+        <div>
+          <img src="assets/img/metasploit-shell.png" alt="Metasploit lab shell" />
+        </div>
+        <div>
+          <h2>Metasploit Exploitation Lab</h2>
+          <p>Practiced module research, exploit configuration, troubleshooting, and session validation in a legal lab environment.</p>
+          <ul>
+            <li>Searched and selected Metasploit modules.</li>
+            <li>Configured target host and listener values.</li>
+            <li>Troubleshot failed attempts and validated successful lab outcomes.</li>
+          </ul>
+          <div class="tags"><span>Metasploit</span><span>Payloads</span><span>Troubleshooting</span></div>
+        </div>
+      </article>
+
+      <article class="case-study">
+        <div>
+          <img src="assets/img/dvwa-sqli.png" alt="DVWA SQL injection lab" />
+        </div>
+        <div>
+          <h2>DVWA Web Security Labs</h2>
+          <p>Used Damn Vulnerable Web Application to study common web vulnerabilities and understand why secure coding practices matter.</p>
+          <ul>
+            <li>Tested SQL injection behavior in a controlled training application.</li>
+            <li>Reviewed file inclusion source code and application output.</li>
+            <li>Connected findings to OWASP style web security concepts.</li>
+          </ul>
+          <div class="tags"><span>DVWA</span><span>SQL Injection</span><span>OWASP</span></div>
+        </div>
+      </article>
+
+      <article class="case-study">
+        <div>
+          <img src="assets/img/wireshark-http.png" alt="Wireshark HTTP analysis" />
+        </div>
+        <div>
+          <h2>Wireshark Packet Analysis</h2>
+          <p>Analyzed packet captures to understand how traffic moves across a network and how protocols appear at the packet level.</p>
+          <ul>
+            <li>Reviewed DNS queries and responses.</li>
+            <li>Inspected HTTP GET requests and headers.</li>
+            <li>Used packet details and hex view to interpret network activity.</li>
+          </ul>
+          <div class="tags"><span>Wireshark</span><span>DNS</span><span>HTTP</span><span>NTP</span></div>
+        </div>
+      </article>
+
+      <article class="case-study">
+        <div>
+          <img src="assets/img/malware-research.png" alt="VirusTotal malware research screenshot" />
+        </div>
+        <div>
+          <h2>Threat Research and Malware Verification</h2>
+          <p>Used VirusTotal and file verification techniques to review security tool detections and understand how security vendors classify dual use tools.</p>
+          <ul>
+            <li>Reviewed detection results and threat labels.</li>
+            <li>Compared file identity, hash value, and vendor analysis.</li>
+            <li>Practiced safe research habits before handling suspicious tools.</li>
+          </ul>
+          <div class="tags"><span>VirusTotal</span><span>Threat Intel</span><span>Hash Analysis</span></div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Kalyb Williams. Built for GitHub Pages.</p>
+  </footer>
+</body>
+</html>
